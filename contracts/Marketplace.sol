@@ -1,3 +1,7 @@
+pragma solidity ^0.5.0;
+
+import "./PrivateData.sol";
+
 contract Marketplace {
     mapping(address => PrivateData) sellerToData;
     mapping(address => uint) sellerToId;
